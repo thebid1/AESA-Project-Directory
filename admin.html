@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel | AESA Research Directory</title>
+  <meta name="description" content="Admin panel for managing AESA Research Directory entries.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="AESA LOGO.png">
+</head>
+<body>
+  <!-- Login Screen -->
+  <div id="loginScreen" class="login-container">
+    <div class="login-box">
+      <div class="login-header">
+        <img src="AESA LOGO.png" alt="AESA Logo">
+        <h2>Admin Access</h2>
+        <p>AESA Research Directory Management</p>
+      </div>
+      
+      <form id="loginForm">
+        <div class="form-group">
+          <label for="adminPassword">Password</label>
+          <input 
+            type="password" 
+            id="adminPassword" 
+            placeholder="Enter admin password"
+            required
+          >
+        </div>
+        
+        <div id="loginError" class="alert alert-error" style="display: none;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>
+          <span>Incorrect password. Please try again.</span>
+        </div>
+        
+        <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+          Sign In
+        </button>
+      </form>
+      
+      <p style="text-align: center; margin-top: var(--space-lg); color: var(--text-muted); font-size: 0.9rem;">
+        <a href="index.html">← Back to Directory</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- Admin Dashboard -->
+  <div id="adminDashboard" style="display: none;">
+    <!-- Admin Header -->
+    <header class="admin-header">
+      <div class="container admin-header-content">
+        <div class="logo-section">
+          <div class="logo" style="width: 50px; height: 50px;">
+            <img src="AESA LOGO.png" alt="AESA Logo">
+          </div>
+          <div>
+            <h3 style="margin: 0; color: var(--primary-dark);">Admin Panel</h3>
+            <p style="margin: 0; color: var(--text-muted); font-size: 0.9rem;">AESA Research Directory</p>
+          </div>
+        </div>
+        
+        <nav class="admin-nav">
+          <a href="#projects" class="active" data-tab="projects">Projects</a>
+          <a href="#import" data-tab="import">Import CSV</a>
+        </nav>
+        
+        <div style="display: flex; gap: var(--space-md); align-items: center;">
+          <a href="index.html" class="btn btn-outline btn-sm">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            <span>View Directory</span>
+          </a>
+          <button class="btn btn-secondary btn-sm" id="logoutBtn" style="background: var(--gray-100); color: var(--text-secondary);">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" x2="9" y1="12" y2="12"/></svg>
+            <span>Logout</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="admin-section">
+      <div class="container">
+        <!-- Alert Container -->
+        <div id="alertContainer"></div>
+
+        <!-- Projects Tab -->
+        <div id="projectsTab" class="tab-content">
+          <!-- Add/Edit Form -->
+          <div class="admin-card">
+            <h3 id="formTitle">Add New Project</h3>
+            <form id="projectForm">
+              <input type="hidden" id="projectId">
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="projectYear">Year *</label>
+                  <select id="projectYear" required>
+                    <option value="">Select Year</option>
+                  </select>
+                </div>
+                
+                <div class="form-group">
+                  <label for="projectStudent">Student Name *</label>
+                  <input type="text" id="projectStudent" placeholder="e.g., Aisha Bello" required>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="projectTopic">Research Topic *</label>
+                <textarea id="projectTopic" rows="3" placeholder="e.g., Economic Analysis of Onion Production and Marketing in Kaduna State" required></textarea>
+              </div>
+              
+              <div class="form-group">
+                <label for="projectSupervisor">Supervisor *</label>
+                <input type="text" id="projectSupervisor" placeholder="e.g., Dr. Emeka Okafor" required>
+              </div>
+              
+              <!-- TODO: Phase 2 - PDF Upload 
+              <div class="form-group">
+                <label for="projectPDF">Project PDF</label>
+                <input type="file" id="projectPDF" accept=".pdf">
+              </div>
+              -->
+              
+              <div style="display: flex; gap: var(--space-md); margin-top: var(--space-lg);">
+                <button type="submit" class="btn btn-primary">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+                  <span id="submitBtnText">Save Project</span>
+                </button>
+                <button type="button" class="btn btn-outline" id="cancelEditBtn" style="display: none;">
+                  Cancel
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Projects List -->
+          <div class="admin-card">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--space-lg);">
+              <h3 style="margin: 0;">All Projects</h3>
+              <div style="display: flex; gap: var(--space-md); align-items: center;">
+                <input type="text" id="adminSearch" placeholder="Search projects..." style="padding: 0.5rem; border: 1px solid var(--border); border-radius: var(--radius-md);">
+                <button class="btn btn-outline btn-sm" id="exportBtn">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+                  Export CSV
+                </button>
+              </div>
+            </div>
+            
+            <div class="table-container" style="margin: 0;">
+              <table class="data-table" id="adminProjectsTable">
+                <thead>
+                  <tr>
+                    <th>ID</th>
+                    <th>Year</th>
+                    <th>Student</th>
+                    <th>Topic</th>
+                    <th>Supervisor</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody id="adminProjectsTableBody">
+                  <!-- Projects will be rendered here -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- Import CSV Tab -->
+        <div id="importTab" class="tab-content" style="display: none;">
+          <div class="admin-card">
+            <h3>Bulk Import from CSV</h3>
+            <p style="color: var(--text-muted); margin-bottom: var(--space-lg);">
+              Upload a CSV file with headers: <code>year, topic, student_name, supervisor</code>
+            </p>
+            
+            <div class="upload-area" id="uploadArea">
+              <svg class="upload-area-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                <polyline points="17 8 12 3 7 8"/>
+                <line x1="12" x2="12" y1="3" y2="15"/>
+              </svg>
+              <p class="upload-area-text">
+                <strong>Click to upload</strong> or drag and drop
+              </p>
+              <p style="color: var(--text-muted); font-size: 0.85rem;">CSV files only</p>
+              <input type="file" id="csvInput" accept=".csv" style="display: none;">
+            </div>
+            
+            <div style="margin-top: var(--space-xl);">
+              <h4>CSV Format</h4>
+              <pre style="background: var(--gray-50); padding: var(--space-md); border-radius: var(--radius-md); overflow-x: auto; font-size: 0.9rem;"><code>year,topic,student_name,supervisor
+2023,"Economic Analysis of Onion Production in Kaduna State","Aisha Bello","Dr. Emeka Okafor"
+2022,"Impact of Climate Change on Cassava Yield","Tunde Adewale","Prof. Ngozi Eze"
+2023,"Farm Credit Access and Productivity","Fatima Suleiman","Dr. Emeka Okafor"</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Delete Confirmation Modal -->
+  <div class="modal-overlay" id="deleteModal">
+    <div class="modal" style="max-width: 450px;">
+      <div class="modal-header" style="background: var(--error);">
+        <h2>Confirm Deletion</h2>
+        <button class="modal-close" id="closeDeleteModal">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Are you sure you want to delete this project?</p>
+        <p style="color: var(--text-muted); margin-top: var(--space-md);">
+          <strong id="deleteProjectTitle"></strong>
+        </p>
+        <p style="color: var(--error); font-size: 0.9rem; margin-top: var(--space-md);">
+          This action cannot be undone.
+        </p>
+        
+        <div class="detail-actions" style="margin-top: var(--space-xl);">
+          <button class="btn btn-danger" id="confirmDeleteBtn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+            Delete Project
+          </button>
+          <button class="btn btn-outline" id="cancelDeleteBtn">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="AESA LOGO.png" alt="AESA Logo">
+          </div>
+          <div class="footer-brand-text">
+            <h3>AESA Research Directory</h3>
+            <p>Admin Panel<br>Agricultural Economics Student Association</p>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Admin Actions</h4>
+          <ul>
+            <li><a href="index.html">← Back to Directory</a></li>
+            <li><a href="#" onclick="showAdminHelp(); return false;">❓ Admin Help</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="footer-credit">
+          <span>Built with</span>
+          <span class="heart">❤️</span>
+          <span>by <strong>AESA EXCO 2026</strong></span>
+        </div>
+        <div class="footer-year">
+          © 2026 AESA UDUS. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/admin.js"></script>
+  <script>
+    function showAdminHelp() {
+      alert('Admin Help\n\n' +
+            '1. Adding Projects:\n' +
+            '   - Fill the form and click "Save Project"\n\n' +
+            '2. Editing Projects:\n' +
+            '   - Click the edit (✏️) icon in the table\n\n' +
+            '3. Deleting Projects:\n' +
+            '   - Click the delete (🗑️) icon and confirm\n\n' +
+            '4. CSV Import:\n' +
+            '   - Go to Import CSV tab\n' +
+            '   - Upload a CSV with columns: year, topic, student_name, supervisor\n\n' +
+            '5. Export:\n' +
+            '   - Click "Export CSV" to backup all data');
+    }
+  </script>
+</body>
+</html>

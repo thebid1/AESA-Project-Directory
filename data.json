@@ -624,14 +624,6 @@
     "pdf_url": null
   },
   {
-    "id": 79,
-    "year": null,
-    "topic": "",
-    "student_name": "",
-    "supervisor": "",
-    "pdf_url": null
-  },
-  {
     "id": 80,
     "year": 2019,
     "topic": "Resource use Efficiency of Cowpea Production in Gusau LGA, Zamfara State, Nigeria",
@@ -801,7 +793,7 @@
   },
   {
     "id": 101,
-    "year": "2023",
+    "year": 2023,
     "topic": "Profitability Assessment of Tomato Processing in Dange Shuni LGA of Sokoto State, Nigeria",
     "student_name": "Leo Deborah Habila",
     "supervisor": "Dr. B.B. Abubakar",
@@ -809,7 +801,7 @@
   },
   {
     "id": 102,
-    "year": "2023",
+    "year": 2023,
     "topic": "Cattle Fattening System among Women in Some Selected Areas of Sokoto North LGa, Sokoto State",
     "student_name": "Bello Asmau Alkali",
     "supervisor": "Prof. A.A. Yakubu",
@@ -817,7 +809,7 @@
   },
   {
     "id": 103,
-    "year": "2023",
+    "year": 2023,
     "topic": "Yam Marketing in Sokoto North LGA of Sokoto State, Nigeria",
     "student_name": "Ibrahim Abdullahi",
     "supervisor": "Prof. A.A. Yakubu",
@@ -825,7 +817,7 @@
   },
   {
     "id": 104,
-    "year": "2023",
+    "year": 2023,
     "topic": "Price variation of Cereals Cropsin Sokoto central Market in Sokoto North LGA of Sokoto State, Nigeria",
     "student_name": "Attahiru Hayaka",
     "supervisor": "Dr. M.I. Abubakar",
@@ -833,7 +825,7 @@
   },
   {
     "id": 105,
-    "year": "2023",
+    "year": 2023,
     "topic": "Analysis of Consumer Demand for catfish in Kaduna North LGA of Kaduna State, Nigeria",
     "student_name": "Bello Umar Muhammed",
     "supervisor": "Dr. M.I. Abubakar",
@@ -841,7 +833,7 @@
   },
   {
     "id": 106,
-    "year": "2023",
+    "year": 2023,
     "topic": "Analysis of Carrot Value Chain in Ruggar Liman LGA of Sokoto State, Nigeria",
     "student_name": "Bello Abubakar",
     "supervisor": "Prof. U.B. Kyiogwom",
@@ -849,7 +841,7 @@
   },
   {
     "id": 107,
-    "year": "2023",
+    "year": 2023,
     "topic": "Profitability of Commercial Broiler Production in Sokoto South LGA of Sokoto State.",
     "student_name": "Hafiz Sulaiman",
     "supervisor": "Prof. U.B. Kyiogwom",
@@ -857,7 +849,7 @@
   },
   {
     "id": 108,
-    "year": "2023",
+    "year": 2023,
     "topic": "Economic of Sugarcane Production in Wammako LGA, Sokoto State, Nigeria",
     "student_name": "Abubakar Abdullateef",
     "supervisor": "Prof. A.N. Abdullahi",
@@ -865,7 +857,7 @@
   },
   {
     "id": 109,
-    "year": "2023",
+    "year": 2023,
     "topic": "Comparative Analysis on Extent of agro-Chemical usage in Amaranthus Production along Flood Plain of Ruggar Liman, Sokoto State",
     "student_name": "Zainab Muhammed Galadima",
     "supervisor": "Prof. A.N. Abdullahi",
@@ -873,7 +865,7 @@
   },
   {
     "id": 110,
-    "year": "2023",
+    "year": 2023,
     "topic": "An Economic Analysis of garlic Marketing in Sokoto Metropolis",
     "student_name": "Ismail Hauwa'u Ahmad",
     "supervisor": "Dr. B.B. Abubakar",
@@ -881,7 +873,7 @@
   },
   {
     "id": 111,
-    "year": "2013",
+    "year": 2013,
     "topic": "Tomato Production Under Irrigation in Some Selected Districts of Zuru LGA of Kebbi State",
     "student_name": "Aliyu Danmaigoro",
     "supervisor": "Prof. U.B. Kyiogwom",
@@ -889,7 +881,7 @@
   },
   {
     "id": 112,
-    "year": "2013",
+    "year": 2013,
     "topic": "Marketing of Eggs Among Commercial Egg Marketers in Some Selected Locations in Sokoto Metropolis, Sokoto State, Nigeria",
     "student_name": "Ajayi Olushola",
     "supervisor": "Prof. U.B. Kyiogwom",
@@ -897,7 +889,7 @@
   },
   {
     "id": 113,
-    "year": "2013",
+    "year": 2013,
     "topic": "Marketing of Moringa by Women in Sokoto Metropolis, Sokoto State, Nigeria",
     "student_name": "Muhammad Ahmad",
     "supervisor": "Prof. A.A. Yakubu",
@@ -905,7 +897,7 @@
   },
   {
     "id": 114,
-    "year": "2016",
+    "year": 2016,
     "topic": "Economic Analysis of Tomato Production in Wammako LGA, Sokoto State, Nigeria",
     "student_name": "Abdullahi Sani",
     "supervisor": "Dr. M.I. Abubakar",
@@ -913,7 +905,7 @@
   },
   {
     "id": 115,
-    "year": "2016",
+    "year": 2016,
     "topic": "Economic Analysis of Rice Production in Zaria LGA Area of Kaduna State",
     "student_name": "Yakubu Tanko Nuhu",
     "supervisor": "Dr. M.I. Abubakar",
@@ -921,7 +913,7 @@
   },
   {
     "id": 116,
-    "year": "2016",
+    "year": 2016,
     "topic": "Production of Watermelon in Some Selected Communities of Jibla LGA of Katstina State, Nigeria",
     "student_name": "Barau Lawal",
     "supervisor": "Prof. A.A. Yakubu",
@@ -929,7 +921,7 @@
   },
   {
     "id": 117,
-    "year": "2016",
+    "year": 2016,
     "topic": "Analysis of Sheep Marketing in Three Selected Livestock Markets in Kaduna State",
     "student_name": "Maharazu Adamu",
     "supervisor": "Prof. M.S.M. Jabo",
@@ -937,7 +929,7 @@
   },
   {
     "id": 118,
-    "year": "2006",
+    "year": 2006,
     "topic": "Factors Affecting Inter Regional Livestock Transfer Cost ( A Case Study of Kara Market, Sokoto)",
     "student_name": "Suleiman Idris",
     "supervisor": "Prof. A.A. Yakubu",
@@ -945,7 +937,7 @@
   },
   {
     "id": 119,
-    "year": "2006",
+    "year": 2006,
     "topic": "Fish Marketting in Wammakko LGA, Sokoto State",
     "student_name": "Taiwo Mistura Motunrayo",
     "supervisor": "Prof. A.A. Yakubu",
@@ -953,7 +945,7 @@
   },
   {
     "id": 120,
-    "year": "2018",
+    "year": 2018,
     "topic": "Economics of Irrigated Rice Production Under Zairo Border Project in Birnin Kebbi LGA of Kebbi State",
     "student_name": "Ismahil Shehu",
     "supervisor": "Prof. A.N. Abdullahi",
@@ -961,7 +953,7 @@
   },
   {
     "id": 121,
-    "year": "2018",
+    "year": 2018,
     "topic": "Marketing Analysis of Red Pepper in Olamaboro LGA of Kogi State, Nigeria",
     "student_name": "Ogbe Victor Ojochenemi",
     "supervisor": "Dr. M.I. Abubakar",
@@ -969,7 +961,7 @@
   },
   {
     "id": 122,
-    "year": "2018",
+    "year": 2018,
     "topic": "The Impact of Micro Credit on Food Security Status of Small Scale Farmers in Wammako LGA, Sokoto State",
     "student_name": "Yunusa Muhammad Said",
     "supervisor": "Prof. M.S.M. Jabo",
@@ -977,7 +969,7 @@
   },
   {
     "id": 123,
-    "year": "2018",
+    "year": 2018,
     "topic": "Impact of Information System on Risk Management Among Rural Farmers in Goronyo Irrigation Scheme, Goronyo LGA, Sokoto State",
     "student_name": "Ameh Ekoja Peter",
     "supervisor": "Dr. T.O Obalola",
@@ -985,7 +977,7 @@
   },
   {
     "id": 124,
-    "year": "2011",
+    "year": 2011,
     "topic": "Effects of Leasehold on Agricultural Production in Wammako LGA, Sokoto State",
     "student_name": "Ahmed Idris",
     "supervisor": "Prof. A.A. Yakubu",
@@ -993,7 +985,7 @@
   },
   {
     "id": 125,
-    "year": "2011",
+    "year": 2011,
     "topic": "Economics of Garlic Marketing in Wurno LGA of Sokoto State",
     "student_name": "Bashir Shehu Dange",
     "supervisor": "",
@@ -1001,7 +993,7 @@
   },
   {
     "id": 126,
-    "year": "2011",
+    "year": 2011,
     "topic": "Popped Popcorn Processing and Marketing, Case Study of Selected Institutions in Zaria, Kaduna State",
     "student_name": "Zakariyah Saminu Soba",
     "supervisor": "Prof. A.A. Yakubu",
@@ -1009,7 +1001,7 @@
   },
   {
     "id": 127,
-    "year": "2011",
+    "year": 2011,
     "topic": "Price Flunctuation of Groundnut Between on and off Seasons in Sokoto  Central Market of Sokoto State",
     "student_name": "Hatayudeen Ahmad Bawa",
     "supervisor": "Prof. U.B. Kyiogwom",
@@ -1017,7 +1009,7 @@
   },
   {
     "id": 128,
-    "year": "2011",
+    "year": 2011,
     "topic": "Profitability of Sheep and Goat Production in Sokoto Metropolis",
     "student_name": "Idoko Samuel Ukinenya",
     "supervisor": "",
@@ -1025,7 +1017,7 @@
   },
   {
     "id": 129,
-    "year": "2014",
+    "year": 2014,
     "topic": "Economics Analysis of Maize Based Cropping System among Small Holders Farmers in Burgu LGA, Niger State",
     "student_name": "Umar Faruk Tanko",
     "supervisor": "",
@@ -1033,7 +1025,7 @@
   },
   {
     "id": 130,
-    "year": "2014",
+    "year": 2014,
     "topic": "Analysis of Frozen Fish Demand Among Fish consuming Households in Funtua LGA, Katsina State",
     "student_name": "Ibrahim Auwal Rabo",
     "supervisor": "",
@@ -1041,7 +1033,7 @@
   },
   {
     "id": 131,
-    "year": "2014",
+    "year": 2014,
     "topic": "Marketing of Cattle in Sokoto North LGA, Sokoto State",
     "student_name": "Musa Abdulsalam",
     "supervisor": "",
@@ -1049,7 +1041,7 @@
   },
   {
     "id": 132,
-    "year": "2014",
+    "year": 2014,
     "topic": "Marketing and Value Chain Analysis of Moringa in Sokoto North and South LGA, Sokoto State",
     "student_name": "Faidat Luqman Atitebi",
     "supervisor": "",
@@ -1057,7 +1049,7 @@
   },
   {
     "id": 133,
-    "year": "2018",
+    "year": 2018,
     "topic": "The Impact of Nigeria Agricultural Insurance Copration [NAIC] on Rice production in Goronyo and Binji L.G.A of Sokoto State",
     "student_name": "Aisha Onyioza Shuibu",
     "supervisor": "Dr. T.O Obalola",
@@ -1065,7 +1057,7 @@
   },
   {
     "id": 134,
-    "year": "2018",
+    "year": 2018,
     "topic": "Usage of information Sources and willingness to pay for Improved rice variety Among Rural farmers of Goronyo L.G.A. in Sokoto State",
     "student_name": "Labbo Hauwa'u Abubakar",
     "supervisor": "Dr. T.O Obalola",
@@ -1073,7 +1065,7 @@
   },
   {
     "id": 135,
-    "year": "2018",
+    "year": 2018,
     "topic": "The Role of Agricultural Sector in Accelerating Economic growth in Nigeria.",
     "student_name": "Akihmie Amolesthe",
     "supervisor": "Prof. M.S.M. Jabo",
@@ -1081,7 +1073,7 @@
   },
   {
     "id": 136,
-    "year": "2018",
+    "year": 2018,
     "topic": "Economics of commercial Poultry [Broilers] production in Kibiya L.G.A in Kano State",
     "student_name": "BALARABE YUNUSA",
     "supervisor": "Dr. M.I. Abubakar",
@@ -1089,7 +1081,7 @@
   },
   {
     "id": 137,
-    "year": "2019",
+    "year": 2019,
     "topic": "Economic of Honey Production in Minjibir Local Government Area of Kano State.",
     "student_name": "Aminu Hassan Nuhu",
     "supervisor": "Dr. T.O Obalola",
@@ -1097,7 +1089,7 @@
   },
   {
     "id": 138,
-    "year": "2019",
+    "year": 2019,
     "topic": "Structure & watermelon marketing in Sokoto Metropolis, Sokoto State, Nigeria",
     "student_name": "Imrana Maisha Nu",
     "supervisor": "",
@@ -1105,7 +1097,7 @@
   },
   {
     "id": 139,
-    "year": "2019",
+    "year": 2019,
     "topic": "Supply and marketing of Poultry EGG in Sokoto Old Market",
     "student_name": "Ibrahim Muhammadu Lula",
     "supervisor": "Dr. B.B. Abubakar",
@@ -1113,7 +1105,7 @@
   },
   {
     "id": 140,
-    "year": "2019",
+    "year": 2019,
     "topic": " Analysis of Local Rice consumption Among House hold in Gusau Local Government Area of Zamfara State Nigeria.",
     "student_name": "Jamilu Abdulmajid Dango",
     "supervisor": "Dr. M.I. Abubakar",
@@ -1121,7 +1113,7 @@
   },
   {
     "id": 141,
-    "year": "2008",
+    "year": 2008,
     "topic": " Comparative Economics Analysis of Cowpea [vigna unguiculata] Storage Using Chemical and Non-chemical methods in Bakura Local Government Area Zamfara State.",
     "student_name": "Musa Mainasara",
     "supervisor": "",
@@ -1129,7 +1121,7 @@
   },
   {
     "id": 142,
-    "year": "2008",
+    "year": 2008,
     "topic": "Role of Agricultural Extension In Enhancing Sesame [Sesamum Indicum] Production in Rijau Local Government Area of NIGER state.",
     "student_name": "Samaila Idris",
     "supervisor": "Prof. U.B. Kyiogwom",
@@ -1137,7 +1129,7 @@
   },
   {
     "id": 143,
-    "year": "2008",
+    "year": 2008,
     "topic": " Frequency of bulls in urban-Raised cattle herds: A case study of Sokoto North and Sokoto South Local Government Areas.",
     "student_name": "Abdullahi Yusuf Augi",
     "supervisor": "Prof. W. Akin Hassan",
@@ -1145,7 +1137,7 @@
   },
   {
     "id": 144,
-    "year": "2008",
+    "year": 2008,
     "topic": "Job performance of Forest guards in Forest Guards in Forest Reserve Protection in Arewa Local Government Area kebbi State.",
     "student_name": "Aliyu Abubakar",
     "supervisor": "",
@@ -1153,7 +1145,7 @@
   },
   {
     "id": 145,
-    "year": "2008",
+    "year": 2008,
     "topic": " Pricing strategies In hide and Skin marketing In Katsina metropolis katsina state.",
     "student_name": "Mussadiq Modibbo",
     "supervisor": "Prof. A.A. Yakubu",
@@ -1185,7 +1177,7 @@
   },
   {
     "id": 149,
-    "year": "2025",
+    "year": 2025,
     "topic": "Analysis of Market Participation of Smallholder Groundnut Farmers in Talata Mafara L.G. Area Zamfara State Nigeria.",
     "student_name": "Muhammad Abdul Hadi Abubakar",
     "supervisor": "Dr. B.B. Abubakar",
@@ -1193,7 +1185,7 @@
   },
   {
     "id": 150,
-    "year": "2025",
+    "year": 2025,
     "topic": "Examining the Economic Consequences of Post Harvest Losses Among Small Holder Farmer of Sweet Potato in Wamakko L.G. Areas Sokoto State.",
     "student_name": "Ibrahim Abdulmalik",
     "supervisor": "Dr. B.B. Abubakar",
@@ -1201,7 +1193,7 @@
   },
   {
     "id": 151,
-    "year": "2025",
+    "year": 2025,
     "topic": "Profitability Analysis of Sugar Cane Production in Wamakko LG Area of Sokoto State.",
     "student_name": "Aina Daniel Inioluwa",
     "supervisor": "Dr. M.I. Abubakar",
@@ -1209,7 +1201,7 @@
   },
   {
     "id": 152,
-    "year": "2025",
+    "year": 2025,
     "topic": "Consumer Preferences and Willingness to Pay for Street Food in Sokoto North Sokoto State, Nigeria.",
     "student_name": " Ibrahim Abdulbasit Awwal",
     "supervisor": "Dr. T.O Obalola",
@@ -1217,7 +1209,7 @@
   },
   {
     "id": 153,
-    "year": "2016",
+    "year": 2016,
     "topic": "Economic Analysis of Turkey-Production in Kaduna Metropolis Kaduna State, Nigeria",
     "student_name": "Muharaz Aliyu Muhammad",
     "supervisor": "",
@@ -1225,7 +1217,7 @@
   },
   {
     "id": 154,
-    "year": "2016",
+    "year": 2016,
     "topic": "Profitability Analysis of Recirculatory System of Fish Production {A Case Study of Selected Fish Farms in Sokoto Metropolis} Sokoto State Nigeria",
     "student_name": "Abubakar Labaran",
     "supervisor": "Prof. A.M Kabir",
@@ -1233,7 +1225,7 @@
   },
   {
     "id": 155,
-    "year": "2016",
+    "year": 2016,
     "topic": "Economic Analysis of Cowpea-Storage Among Farmers and Marketers in Magama Local Government Area, Niger State Nigeria.",
     "student_name": "Solomon Shekarau",
     "supervisor": "Prof. A.N. Abdullahi",
@@ -1241,23 +1233,15 @@
   },
   {
     "id": 156,
-    "year": "2011",
+    "year": 2011,
     "topic": "Comprative Analysis of Resource use Efficiency in Improved and Local maize {Zea mays} Varieties Production in Tsafe Local Government Area Zamfara State",
     "student_name": "Bashiru Saleh",
     "supervisor": "Prof. M.S.M. Jabo",
     "pdf_url": null
   },
   {
-    "id": 157,
-    "year": "",
-    "topic": "",
-    "student_name": "",
-    "supervisor": "",
-    "pdf_url": null
-  },
-  {
     "id": 158,
-    "year": "2011",
+    "year": 2011,
     "topic": "Economics of Garlic marketing in Wurno Local Government Area of Sokoto State",
     "student_name": "Bashir Shehu Dange",
     "supervisor": "",
@@ -1265,15 +1249,31 @@
   },
   {
     "id": 159,
-    "year": "2011",
+    "year": 2011,
     "topic": "Women Participation in Rice Production A panace for Poverty Reduction in Maradun Local Government AREA of ZAMFARA STATE.",
     "student_name": "Bello Muhammad Dosara",
     "supervisor": "",
     "pdf_url": null
   },
   {
+    "id": 158,
+    "year": "",
+    "topic": "",
+    "student_name": "",
+    "supervisor": "",
+    "pdf_url": null
+  },
+  {
+    "id": 159,
+    "year": "",
+    "topic": "",
+    "student_name": "",
+    "supervisor": "",
+    "pdf_url": null
+  },
+  {
     "id": 160,
-    "year": "2011",
+    "year": "",
     "topic": "",
     "student_name": "",
     "supervisor": "",
